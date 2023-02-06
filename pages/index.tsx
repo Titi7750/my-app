@@ -15,7 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Home page</h1>
+      <main className={styles.main}>
+        <h1>Home page</h1>
+
+        <Image src={'public/img/photoTf.jpg'} alt={'Tristan Fioroni'}
+        width={500} height={500}
+        />
+      </main>
     </>
   )
 }
